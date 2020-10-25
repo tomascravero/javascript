@@ -87,3 +87,11 @@ console.log("Month N° 11:", months[11]);
 
 months.sort();
 console.log("The list sorted alphabetically", months);
+
+/* c) Agregar un elemento al principio y al final del array (utilizar unshift y push). */
+
+console.log(months.unshift("Year"), months.push("New Year"));
+
+
+
+
