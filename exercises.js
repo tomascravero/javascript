@@ -96,4 +96,8 @@ console.log(months.unshift("Year"), months.push("New Year"));
 
 console.log(months.shift(), months.pop());
 
+/* e) Invertir el orden del array (utilizar reverse) */
+
+console.log("Array inverted: ", months.reverse());
+
 
