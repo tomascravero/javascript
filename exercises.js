@@ -51,3 +51,9 @@ var newT1 = "Programming";
 var last3 = newT1.substring(8,11);
 console.log(last3, "are the last 3 characters of: ", newT1);
 
+/* d) Crear una variable de tipo string con al menos 10 caracteres y generar un nuevo string con la primera letra en mayúscula y
+    las demás en minúscula. Guardar el resultado en una nueva variable (utilizar substring, toUpperCase, toLowerCase y el operador +). */
+
+var $textN = "pROGRammIng";
+var capitalize = $textN.substring(0,1).toUpperCase() + $textN.substring(1).toLowerCase();
+console.log("These is the text: ", $textN, "to capitalize: ", capitalize);
