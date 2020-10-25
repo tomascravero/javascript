@@ -149,3 +149,11 @@ if (Age < 2){
     alert("Anciano");
 }
 
+/* 5) FOR 
+    a) Crear un array que contenga 5 palabras y recorrer dicho array utilizando
+    un bucle for de JavaScript para mostrar una alerta utilizando cada una de las palabras. */
+
+var fruits = ["Apple", "Pear", "Banana", "Strawberry", "Peach"];
+for (let h=0; h<fruits.length; h++){
+    alert(fruits[h]);
+}
