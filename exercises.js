@@ -57,3 +57,10 @@ console.log(last3, "are the last 3 characters of: ", newT1);
 var $textN = "pROGRammIng";
 var capitalize = $textN.substring(0,1).toUpperCase() + $textN.substring(1).toLowerCase();
 console.log("These is the text: ", $textN, "to capitalize: ", capitalize);
+
+/* e) Crear una variable de tipo string con al menos 10 caracteres y 
+    algún espacio en blanco. Encontrar la posición del primer espacio en blanco y guardarla en una variable (utilizar indexOf). */
+
+var _text = "Programming in Javascript";
+var space = _text.indexOf(" ", 0);
+console.log("The first space is in the position: ", space);
