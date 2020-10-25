@@ -37,4 +37,10 @@ console.log ("Length: ", large);
 var _txt1 = "This is a text with at least 10 characters";
 console.log(_txt1.toUpperCase());
 
+/* b) Crear una variable de tipo string con al menos 10 caracteres y 
+    generar un nuevo string con los primeros 5 caracteres guardando el resultado en una nueva variable (utilizar substring). */
+
+var $t1 = "Description";
+var fiveC = $t1.substring(0,5);
+console.log(fiveC, "are the first 5 characters of: ", $t1);
 
