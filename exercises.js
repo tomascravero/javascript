@@ -64,3 +64,13 @@ console.log("These is the text: ", $textN, "to capitalize: ", capitalize);
 var _text = "Programming in Javascript";
 var space = _text.indexOf(" ", 0);
 console.log("The first space is in the position: ", space);
+
+
+/* f) Crear una variable de tipo string con al menos 2 palabras largas (10 caracteres y algún espacio entre medio).
+Utilizar los métodos de los ejercicios anteriores para generar un nuevo string que tenga la primera letra de ambas palabras en mayúscula y 
+las demás letras en minúscula (utilizar indexOf, substring, toUpperCase, toLowerCase y el operador +) */
+
+var _words = "techNOLOgy coMMUnication";
+var space = _words.indexOf(" ");
+var palabra = _words.substring(0,1).toUpperCase() + _words.substring(1, space).toLowerCase() + _words.substring(space,space+1) + _words.substring(space+1,space+2).toUpperCase() + _words.substring(space+2).toLowerCase();
+console.log(palabra);
