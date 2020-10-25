@@ -31,6 +31,10 @@ for (var k=0; k<$text2.length; k++){
 }
 console.log ("Length: ", large);
 
-/*  */
+/* 2) Strings
+    a) Crear una variable de tipo string con al menos 10 caracteres y convertir todo el texto en mayúscula (utilizar toUpperCase).  */
+
+var _txt1 = "This is a text with at least 10 characters";
+console.log(_txt1.toUpperCase());
 
 
