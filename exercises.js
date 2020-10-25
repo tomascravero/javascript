@@ -92,6 +92,8 @@ console.log("The list sorted alphabetically", months);
 
 console.log(months.unshift("Year"), months.push("New Year"));
 
+/* d) Quitar un elemento del principio y del final del array (utilizar shift y pop). */
 
+console.log(months.shift(), months.pop());
 
 
