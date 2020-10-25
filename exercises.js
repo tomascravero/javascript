@@ -74,3 +74,13 @@ var _words = "techNOLOgy coMMUnication";
 var space = _words.indexOf(" ");
 var palabra = _words.substring(0,1).toUpperCase() + _words.substring(1, space).toLowerCase() + _words.substring(space,space+1) + _words.substring(space+1,space+2).toUpperCase() + _words.substring(space+2).toLowerCase();
 console.log(palabra);
+
+/* 3) Arrays 
+    a) Dado el siguiente array: ["Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre"] 
+    mostrar por consola los meses 5 y 11 (utilizar console.log) */
+
+let months = ["Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre"];
+console.log("Month N° 5:", months[5]);
+console.log("Month N° 11:", months[11]);
+
+
