@@ -44,3 +44,10 @@ var $t1 = "Description";
 var fiveC = $t1.substring(0,5);
 console.log(fiveC, "are the first 5 characters of: ", $t1);
 
+/* c) Crear una variable de tipo string con al menos 10 caracteres y 
+generar un nuevo string con los últimos 3 caracteres guardando el resultado en una nueva variable (utilizar substring). */
+
+var newT1 = "Programming";
+var last3 = newT1.substring(8,11);
+console.log(last3, "are the last 3 characters of: ", newT1);
+
