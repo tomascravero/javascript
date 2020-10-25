@@ -79,14 +79,13 @@ console.log(palabra);
     a) Dado el siguiente array: ["Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre"] 
     mostrar por consola los meses 5 y 11 (utilizar console.log) */
 
-let months = ["Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre"];
+var months = ["Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre"];
 console.log("Month N° 5:", months[5]);
 console.log("Month N° 11:", months[11]);
 
 /* b) Ordenar el array de meses alfabéticamente y mostrarlo por consola (utilizar sort). */
 
-months.sort();
-console.log("The list sorted alphabetically", months);
+console.log("The list sorted alphabetically", months.sort());
 
 /* c) Agregar un elemento al principio y al final del array (utilizar unshift y push). */
 
@@ -104,3 +103,12 @@ console.log("Array inverted: ", months.reverse());
 
 var $arrayJ = months.join("-");
 console.log($arrayJ);
+
+/* g) Crear una copia del array de meses que contenga desde Mayo hasta Noviembre (utilizar slice). */
+
+var monthsArray = ["Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre"];
+var monthsNew = monthsArray.slice(4,11);
+console.log("Array from May to November: ", monthsNew);
+
+
+
