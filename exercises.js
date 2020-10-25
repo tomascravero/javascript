@@ -100,4 +100,7 @@ console.log(months.shift(), months.pop());
 
 console.log("Array inverted: ", months.reverse());
 
+/* f) Unir todos los elementos del array en un único string donde cada mes este separado por un guión - (utilizar join). */
 
+var $arrayJ = months.join("-");
+console.log($arrayJ);
