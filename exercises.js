@@ -198,7 +198,7 @@ console.log(_sumatoria); */
 /* b) A la función suma anterior, agregarle una validación para controlar si alguno de los parámetros no es un número, 
     mostrar una alerta aclarando que uno de los parámetros tiene error y retornar el valor NaN como resultado. */
 
-function suma(num1, num2){
+/*function suma(num1, num2){
     if (isNaN(num1) || isNaN(num2)){
         return "NaN";
     }else{
@@ -206,5 +206,21 @@ function suma(num1, num2){
     }
 }
 _sumatoria = suma("H",10);
-console.log(_sumatoria);
+console.log(_sumatoria);*/
+
+/* c) Crear una función validate integer que reciba un número como parámetro y devuelva verdadero si es un número entero. */
+
+function validateInteger(x){
+    if (x % 1 == 0) {
+        return "Es un numero entero";
+    } else {
+        return "Es un numero decimal";
+    }
+}
+
+var num5 = validateInteger(5.1);
+console.log(num5);
+
+
+
 
