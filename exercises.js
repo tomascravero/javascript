@@ -184,3 +184,13 @@ for (let h=0; h<10; h++){
     empty[h] = h + 1;
 }
 console.log(empty);
+
+/* 6) Funciones 
+    a) Crear una función suma que reciba dos valores numéricos y retorne el resultado.
+    Ejecutar la función y guardar el resultado en una variable, mostrando el valor de dicha variable en la consola del navegador. */
+
+function suma(num1, num2){
+    return num1 + num2;
+}
+_sumatoria = suma(5,10);
+console.log(_sumatoria); 
