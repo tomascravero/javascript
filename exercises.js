@@ -212,14 +212,36 @@ console.log(_sumatoria);*/
 
 function validateInteger(x){
     if (x % 1 == 0) {
-        return "Es un numero entero";
+        return true;
     } else {
-        return "Es un numero decimal";
+        return false;
     }
 }
 
 var num5 = validateInteger(5.1);
 console.log(num5);
+
+/* d) A la función suma del ejercicio 6b) agregarle una llamada que valide que los números sean enteros.
+    En caso que haya decimales mostrar un alerta con el error y retorna el número convertido a entero (redondeado). */
+
+function suma(num1, num2){
+    if (isNaN(num1) || isNaN(num2)){
+        return "NaN";
+    }else {
+        let number = validateInteger(num1);
+        let number2 = validateInteger(num2);
+        if (number == true && number2 == true){
+            return num1 + num2;
+        }else if (number == false){
+            alert(Math.round(num1));
+        }else{
+            alert(Math.round(num2));
+        }
+    }
+
+}
+_sumatoria = suma(10,12.5);
+console.log(_sumatoria);
 
 
 
