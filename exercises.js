@@ -164,3 +164,15 @@ for (let h=0; h<fruits.length; h++){
     fruits[h] = fruits[h].substring(0,1).toUpperCase() + fruits[h].substring(1);
     alert(fruits[h]);
 }
+
+/* c) Crear una variable llamada “sentence” que tenga un string vacío, luego al array del punto 
+    a) recorrerlo con un bucle for para ir guardando cada palabra dentro de la variable sentence.
+    Al final mostrar una única alerta con la cadena completa. */
+
+var sentence = [];
+for (let h=0; h<fruits.length; h++){
+    sentence[h] = fruits[h];
+}
+alert(sentence);
+
+
